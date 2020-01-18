@@ -1,7 +1,7 @@
 from flask import Blueprint,render_template,redirect,url_for
-from myproject import db
-from myproject.puppies.forms import AddForm,DelForm
-from myproject.models import Puppy
+from my_project import db
+from my_project.puppies.forms import AddForm,DelForm
+from my_project.models import Puppy
 
 puppies_blueprint = Blueprint('puppies',
                               __name__,
